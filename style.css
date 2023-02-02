@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'roboto';
+    background-color: #242933;
+}
+
+p {
+    color: #838DAF;
+    width: 80%;
+    margin: 5px auto;
+    font-weight: 11 px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #A6B3D9;
+    height: 30px;
+    width: 80%;
+    margin: auto;
+    line-height: 10px;
+    margin-top: 30px;
+    display: block;
+}
+
+form {
+    background-color: #2F3644;
+    border: 2px solid #353a4d;
+    font-size: 11px;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+span {
+    color: #DB5A5A;
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+    display: block
+}
+
+.formContainer {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.formElement {
+    width: 80%;
+    height: 32px;
+    margin: auto;
+    border-radius: 3px;
+    border: none;
+    text-indent: 10px;
+    display: block;
+}
+
+.inputContainer {
+    margin: 1em auto;
+    height: 70px;
+    display: block
+}
+
+.valid {
+    box-shadow: inset 0 0 0 2px #50ce67;
+    border-radius: 3px;
+}
+
+.invalid {
+    box-shadow: inset 0 0 0 2px #d95757;
+    border-radius: 3px;
+}
+
+.errorIcon {
+    background-image: url('images/error-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 250px;
+    background-position-y: 6px;
+}
+
+.successIcon {
+    background-image: url('images/success-icon.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 250px;
+    background-position-y: 6px;
+}
+
+#button {
+    color: white;
+    width: 82%;
+    height: 40px;
+    margin: 15px auto;
+    background-color: #665ff4;
+    border: 2px#292b2b solid;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    display: block;
+}
+
+.borderColor {
+    background-color: #4b44d1 !important;
+}

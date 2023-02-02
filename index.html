@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Laboratorio 2</title>
+</head>
+
+<body>
+    <div class="formContainer">
+        <form name="createaccount">
+            <h1>Create Account</h1>
+            <div class="inputCointainer">
+                <p id="tName">Nombre</p>
+                <input type="text" name="name" value="" id="name" class="formElement" />
+                <span id="nameError"></span>
+            </div>
+            <div class="inputContainer">
+                <p id="tEmail">Email</p>
+                <input type="email" name="email" value="" id="email" class="formElement" />
+                <span id="emailError"></span>
+            </div>
+            <div class="inputContainer">
+                <p id="tPassword">Clave</p>
+                <input type="password" name="password" value="" id="password" class="formElement" />
+                <span id="passError"></span>
+            </div>
+            <div class="inputContainer">
+                <p id="tComfirm">Confirme su clave</p>
+                <input type="password" name="confirm" value="" id="Confirm" class="formElement" />
+                <span id="confirmError"></span>
+            </div>
+            <input type="submit" value="ENVIAR" id="button"
+                onclick="return validateName(), validateEmail(), validatePassword(), validateConfirm (), validateForm()" />
+        </form>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
